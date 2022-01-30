@@ -125,6 +125,18 @@ details i{
     border-radius: 20px;
     padding:0.5rem;
 }
+footer .go-up{
+    margin:0 auto;
+    width: 25px;
+    height: auto;
+    background-color: black;
+    border-radius: 50%;
+    text-align: center;
+}
+footer .go-up-arrow{
+    color:white;
+    text-decoration: none;
+}
 @media only screen and (max-width:768px){
     header{
         flex-direction: column;
