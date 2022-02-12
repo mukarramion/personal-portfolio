@@ -120,11 +120,21 @@ details i{
 }
 #kk-joke{
     background-color: white;
+    color: black;
     text-align: center;
     border: 1px solid #aaa;
     border-radius: 20px;
     padding:0.5rem;
     cursor: pointer;
+}
+#kk-joke:hover{
+    background-color:black;
+    color:white;
+    transition:color .1s ease-in-out,background-color .1s ease-in-out;
+}
+#kk-joke:active{
+    color:orange;
+    transition:color .1s ease-in-out;
 }
 footer .go-up{
     cursor: pointer;
@@ -138,6 +148,9 @@ footer .go-up{
 footer .go-up-arrow{
     color:white;
     text-decoration: none;
+}
+footer .go-up-arrow:active{
+    color:orange;
 }
 @media only screen and (max-width:768px){
     header{
