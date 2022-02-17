@@ -43,7 +43,7 @@ h6{
 
 header{
     top:0;
-    height: 10%;
+    height: auto;
     width: 100%;
     display: flex;
     align-items: center;
