@@ -155,16 +155,6 @@ footer .go-up-arrow:active{
 @media only screen and (max-width:768px){
     header{
         flex-direction: column;
-    }
-}
-@media only screen and (max-width:425px){
-    header{
         text-align: center;
-    }
-    nav ul{
-        flex-direction: column;
-    }
-    nav li{
-        margin:0.5rem;
     }
 }
