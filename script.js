@@ -1,8 +1,8 @@
 const generaterRandomNumber=num=> Math.floor(Math.random()*num);
 
 const knock_KnockJokes={
-    reply:['I am','Oink oink','Abe','Leaf'],
-    replyWho:['I am who?','Oink oink who?','Abe who?','Leaf who?'],
+    reply:['I am.','Oink oink.','Abe.','Leaf.'],
+    replyWho:[' I am who?',' Oink oink who?',' Abe who?',' Leaf who?'],
     reply2Me:['You tell me!!','Make up your mind are you a pig, or an owl?!','Abe CDEFGH...','Leaf Me Alone!']
 };
 
